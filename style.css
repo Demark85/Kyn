@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #0C0F12, #1F2A2E);
+}
+
+.hero {
+    display: flex;
+    padding: 100px 24px;
+    height: 100vh;
+    width: 100%;
+    flex: 1;
+
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    width: 50%;
+    
+}
+
+.logo {
+    color: #E1E6E8;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.motto {
+    color: #bbc1c4ff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.right-side {
+    display: flex;
+    width: 50%;
+}
+
+img {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center:
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #4B7D79;
+    padding: 24px 0;
+}
+.links {
+    color: #E1E6E8;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+
+button {
+    background: #4B7D79;
+    color: #F9FAFB;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.h1, .h2 {
+    font-family: "Libre Baskerville", serif;
+}
+
+.motto, .footer {
+    font-family: "Noto Sans", sans-serif;
+}
